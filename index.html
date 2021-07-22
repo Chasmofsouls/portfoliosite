@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--Metatags-->
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="theme-color" content="#bcb6ff">
+        <title>Alonge Ayomide - Personal Website</title>
+        <meta content="frontend, frontend engineer, frontend developer, Alonge Ayomide" name="keywords">
+        <meta name="description" content="Frontend developer, Alonge Ayomide, Software Engineer, Programmer">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Alonge Ayomide">
+        <meta name="twitter:site" content="@AyomideAlonge5">
+        <meta name="instagram:site" content="@theAyomidealonge">
+        <meta name="linkedin:site" content="@ayomide-alonge-10318a1b0">
+        <meta name="twitter:image" content="" href="assets/img/logo.png">
+        <meta http-equiv="refresh" content="25;home.html">
+
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="/assets/css/pageloader.css">
+
+        <!--Favicons-->
+        <link href="assets/img/logo.png" rel="icon">
+        <link href="assets/img/logo.png" rel="apple-touch-icon">
+    </head>
+
+    <body>
+        <section>
+          <h2>Welcome to me</h2>
+            <div class="banner">
+                <div class="blocks"></div> 
+            </div>
+        </section>
+        <script>
+            const banner = document.getElementsByClassName('banner')[0];
+            const blocks = document.getElementsByClassName('blocks');
+
+            for(var i = 1; i < 400; i++){
+                banner.innerHTML += "<div class = 'blocks'></div>";
+                blocks[i].style.animationDelay = `${i * 0.05}s `;
+            }
+           
+        </script>
+    </body>
+</html>
