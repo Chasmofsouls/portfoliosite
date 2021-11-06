@@ -1,0 +1,15 @@
+/* ---- reset ---- */ 
+canvas{ 
+    display: block; 
+    vertical-align: bottom; 
+} 
+/* ---- particles.js container ---- */
+ #particles-js{  
+     background-color: #1b4965;
+      background-image: url(""); 
+      background-repeat: no-repeat;
+      background-size: cover; 
+      margin-top: 1px;
+      max-height: 400px;
+    } 
+     

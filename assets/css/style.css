@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #004643;
+  border: 8px solid #96C5F7;
 }
 
 #header .profile h1 {
@@ -620,10 +620,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #004643;
+  background: #1b4965;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #004643;
+  border: 1px solid #326273;
 }
 
 .services .icon i {
@@ -632,7 +632,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #bcb6ff;
+  background: #326273;
 }
 
 .services .icon-box:hover .icon i {
@@ -905,7 +905,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #bcb6ff;
+  background: #1b4965;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1072,24 +1072,27 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 7em 0;
+  overflow: hidden;
   color: #fff;
   font-size: 14px;
   position: relative;
   left: 0;
   bottom: 0;
-  /* width: 300px; */
+  /*width: 300px;*/ 
   z-index: 9999;
-  background: #bcb6ff;
+  background: #ffffff00;
+  max-height: 300px;
 }
 
 #footer .copyright {
+  margin-top: 5px;
   text-align: center;
-  color: #4b2e39;
+  color: whitesmoke;
 }
 
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 45px;
   text-align: center;
   font-size: 15px;
   color: #fff;
@@ -1122,7 +1125,7 @@ section {
       margin-bottom: 1.5rem;
       margin-left: 1rem;
       padding: .25rem .5rem;
-      background-color: #173b6c;
+      background-color: #1b4965;
       border-radius: .25rem;
       color: whitesmoke;
   }
