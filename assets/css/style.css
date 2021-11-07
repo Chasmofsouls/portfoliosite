@@ -1100,17 +1100,16 @@ section {
 
 @media (max-width: 1199px) {
   #footer {
-    position: static;
+    position: relative;
     width: auto;
     padding-right: 20px 15px;
   }
 }
 
-@media (max-width: px) {
+@media (max-width: 720px) {
   #footer {
-    position: static;
+    position: relative;
     width: auto;
-    padding-right: 20px 15px;
   }
 }
 
